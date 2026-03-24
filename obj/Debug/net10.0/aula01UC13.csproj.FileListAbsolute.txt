@@ -1,0 +1,14 @@
+C:\Users\FelipeFirmino\Documents\aula01UC13\bin\Debug\net10.0\aula01UC13.exe
+C:\Users\FelipeFirmino\Documents\aula01UC13\bin\Debug\net10.0\aula01UC13.deps.json
+C:\Users\FelipeFirmino\Documents\aula01UC13\bin\Debug\net10.0\aula01UC13.runtimeconfig.json
+C:\Users\FelipeFirmino\Documents\aula01UC13\bin\Debug\net10.0\aula01UC13.dll
+C:\Users\FelipeFirmino\Documents\aula01UC13\bin\Debug\net10.0\aula01UC13.pdb
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.AssemblyInfoInputs.cache
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.AssemblyInfo.cs
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.csproj.CoreCompileInputs.cache
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.dll
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\refint\aula01UC13.dll
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.pdb
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.genruntimeconfig.cache
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\ref\aula01UC13.dll
