@@ -2,18 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-class Paciente
-{
-    public string Nome { get; set; } = "";
-    public int Idade { get; set; }
-    public int NivelDor { get; set; }
-    public string Prioridade { get; set; } = "";
-}
 
-class Program
-{
-    static List<Paciente> pacientes = new List<Paciente>();
+namespace desafio1;
 
+public class Program
+{    
     static void Main(string[] args)
     {
         int opcao;
@@ -32,9 +25,7 @@ class Program
 
             switch (opcao)
             {
-                case 1:
-                    CadastrarPaciente();
-                    break;
+               
                 case 2:
                     ListarPacientes();
                     break;
@@ -53,57 +44,11 @@ class Program
         } while (opcao != 0);
     }
 
-    // ============================
-    // CADASTRO
-    // ============================
-    static void CadastrarPaciente()
-    {
-        string continuar;
-
-        do
-        {
-            Console.Clear();
-            Console.WriteLine("=== CADASTRO DE PACIENTE ===");
-
-            Paciente p = new Paciente();
-
-            Console.Write("Nome: ");
-            p.Nome = Console.ReadLine() ?? "";
-
-            Console.Write("Idade: ");
-            int idade;
-            while (!int.TryParse(Console.ReadLine(), out idade))
-            {
-                Console.Write("Digite uma idade válida: ");
-            }
-            p.Idade = idade;
-
-            Console.Write("Nível de dor (0 a 10): ");
-            int dor;
-            while (!int.TryParse(Console.ReadLine(), out dor) || dor < 0 || dor > 10)
-            {
-                Console.Write("Digite um valor entre 0 e 10: ");
-            }
-            p.NivelDor = dor;
-
-            // PRIORIDADE (TRIAGEM)
-            if (p.NivelDor >= 9 || p.Idade >= 80)
-                p.Prioridade = "PRIORIDADE ALTA"; // 🔴
-            else if (p.NivelDor >= 5)
-                p.Prioridade = "OBSERVAÇÃO TRIAGEM"; // 🟡
-            else
-                p.Prioridade = "AGUARDAR TRIAGEM"; // 🟢
-
-            pacientes.Add(p);
-
-            Console.WriteLine("\nPaciente cadastrado!");
-            Console.WriteLine("Prioridade: " + p.Prioridade);
-
-            Console.Write("\nCadastrar outro? (s/n): ");
-            continuar = Console.ReadLine()?.ToLower() ?? "n";
-
-        } while (continuar == "s");
-    }
+    
+    
+        
+       
+        
 
     // ============================
     // LISTAGEM

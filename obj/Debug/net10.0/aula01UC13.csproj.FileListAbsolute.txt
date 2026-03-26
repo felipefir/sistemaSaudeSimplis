@@ -12,3 +12,4 @@ C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\refint\aula01UC13.
 C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.pdb
 C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.genruntimeconfig.cache
 C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\ref\aula01UC13.dll
+C:\Users\FelipeFirmino\Documents\aula01UC13\obj\Debug\net10.0\aula01UC13.sourcelink.json
